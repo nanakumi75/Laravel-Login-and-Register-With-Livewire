@@ -8,7 +8,7 @@ class QuestionsController extends Controller
 {
     public function getresponses(Request $request){
         $response = Http::get('https://quizapi.io/api/v1/questions',[
-        'apiKey' => 'xCoWJScmenhe9DOOqbMpROhMTb9Bh9eo4DkUUbn9',
+        'apiKey' => 'API_KEY_HERE',
         'limit' => 15
         ]);
 
